@@ -38,18 +38,39 @@ What went wrong / was challenging, how'd you figure it out, and what did you lea
 
 ### Description & Code
 
+This code tells the servo to spin back and forth. Simple.
+
 ```python
-Code goes here
+import time
+import board
+import pwmio
+from adafruit_motor import servo
+
+pwm = pwmio.PWMOut(board.A2, duty_cycle=2 ** 15, frequency=50)
+
+my_servo = servo.Servo(pwm)
+
+while True:
+    for angle in range(0, 180, 5):
+        my_servo.angle = angle
+        time.sleep(0.05)
+    for angle in range(180, 0, -5):
+        my_servo.angle = angle
+        time.sleep(0.05)
 
 ```
 
 ### Evidence
 
+I would show a video but I'm too lazy.
+
 ### Wiring
+
+Brown wire of the servo goes to ground. Orange wire goes to 5V. Yellow wire goes to A2.
 
 ### Reflection
 
-
+I had some trouble with this simply because my computer didn't have an up-to-date verson of circuit python (I think?).
 
 
 ## CircuitPython_LCD
