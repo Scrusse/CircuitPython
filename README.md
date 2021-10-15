@@ -134,7 +134,7 @@ while True:
 
 ### Evidence
 
-[Link to code](/
+![Link to gif](/DistanceSensorGif.gif/)
 
 ### Wiring
 
