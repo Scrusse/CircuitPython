@@ -70,7 +70,7 @@ Brown wire of the servo goes to ground. Orange wire goes to 5V. Yellow wire goes
 
 ### Reflection
 
-I had some trouble with this simply because my computer didn't have an up-to-date verson of circuit python (I think?).
+I had some trouble with this simply because my computer didn't have an up-to-date verson of circuit python (I think?). Its important to remember to import libraries otherwise it just wont work (obviously).
 
 
 ## CircuitPython_DistanceSensor
@@ -138,8 +138,12 @@ while True:
 
 ### Wiring
 
+![WIN_20211026_14_34_04_Pro (3)](https://user-images.githubusercontent.com/71349940/138940648-04240503-275f-4b12-9738-47442712ad06.jpg)
+
+
 ### Reflection
 
+I enjoy making code that works with a sensor. It adds a sense of physicality when I'm finished with the project. In my opinion, the hard part of the assignment was the coding. Though, I do think that the color variables were fun to write. I enjoy math more than English typically, so that was a fun part.
 
 ## CircuitPython_LCD
 
